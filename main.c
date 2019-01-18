@@ -28,6 +28,9 @@ int main()
             printf("tinajiayigecheliangweiz\n");
             scanf("%d", &x);
             scanf("%d", &y);
+            arr[index].x=x;
+            arr[index].y-y;
+            index++;
             char xx;
             scanf("%c", &xx);
             scanf("%c", &xx);
@@ -35,6 +38,22 @@ int main()
         }
         if (coude == 2)
         {
+            if(index>0)
+            {
+                printf("sanchucheliangweizhixingxi/n");
+                index--;
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
+            }
+            else
+            {
+                printf("sanchushibai,dianjihuichejixu\n");
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
+            }
+
         }
         if (coude == 3)
         {
